@@ -39,5 +39,3 @@ var G ec.ECPoint = ec.BasePointGGet()
 k := big.NewInt(12345)
 H := ec.ScalarMult(*k, G)
 ```
-
-
